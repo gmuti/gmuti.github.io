@@ -1,0 +1,100 @@
+
+
+.contact-container {
+    text-align: center;
+    animation: fadeIn 1s ease;
+    padding-left: 90px;
+    margin: 0 auto;
+  }
+
+  .contact-container h2{
+    font-size: 2vw;
+    color: #fff;
+    margin-bottom: 0px auto;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-input,
+  .form-textarea {
+    margin: 10px;
+    padding: 15px;
+    width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.247);
+    background-color: #ffffff3b;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    color: #fff;
+  }
+
+  .form-input::placeholder,
+.form-textarea::placeholder {
+  color: #fff; /* Couleur de votre choix */
+}
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    outline: none;
+    border-color: #fff;
+  }
+  
+  .form-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffff;
+    color: #000;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #6b1ad1;
+  }
+
+.mes-photo{
+    display: flex;
+    width: 40vw;
+    height: 550px;
+    border-radius: 20px;
+    margin: 35px auto;
+    overflow: hidden;
+    position: relative;
+    padding-left: 100px;
+}
+
+.mes-photo div{
+    width: 40%;
+    border-radius: 70px;
+}
+
+
+.left {
+    background-image: url('../assets/img/photo-portfolio.jpg');
+    background-position: left;
+    margin-right: 10px;
+  }
+  
+  .right {
+    background-image: url('../assets/img/photo-portfolio.jpg');
+    background-position: right;
+  }
+ 
+ 
+  
+  

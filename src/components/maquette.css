@@ -1,0 +1,23 @@
+.maquette-section{
+    margin: 100px 0;
+}
+
+.maquettes{
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.maquettes .maquette img{
+    border-radius: 65px;
+    transition: transform 0.3s ease;
+}
+
+.maquettes .maquette img:hover{
+    transform: rotate(10deg);
+}
+
+.maquette h2, .maquette h4{
+    text-align: center;
+}

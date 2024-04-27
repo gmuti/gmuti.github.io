@@ -1,0 +1,19 @@
+@import './pages/home.css';
+@import './components/about.css';
+@import './components/hero.css';
+@import './components/menu.css';
+@import './components/block.css';
+@import './components/projets.css';
+@import './components/acceuil.css';
+@import './components/experiences.css';
+@import './components/Contact.css';
+@import './components/maquette.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nova+Slim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+  overscroll-behavior: none;
+  background: url('../public/bk3.png') fixed;
+  font-family: "Josefin Sans", sans-serif;
+}
+

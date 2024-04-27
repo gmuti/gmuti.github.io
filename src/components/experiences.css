@@ -1,0 +1,18 @@
+h1{
+    color: #fff;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+.vertical-timeline-element--education .type-contrat{
+    background-color: #fff;
+    color: #000;
+    padding: 4px 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.vertical-timeline-element--education h4{
+    margin-bottom: 10px;
+}

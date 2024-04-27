@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+
+.menu{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding: 0;
+    font-family: "Farsan", cursive;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.menu ul li{
+    border: 1px solid rgba(255, 255, 255, 0.151);
+    background-color: #ffffff13;
+    padding: 12px 40px;  
+}
+.menu ul li:first-child{
+    border-radius: 10px 0 0 10px;
+}
+.menu ul li:last-child{
+    border-radius: 0 10px 10px 0;
+}
+
+.uul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.activeLink {
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}

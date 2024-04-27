@@ -1,0 +1,98 @@
+.P-ac {
+    position: relative;
+    width: 100%;
+    height: 600px;
+  }
+  
+  /*
+  
+  .layer:nth-child(1) {
+    top: 30%;
+    left: 10%;
+  }
+  
+  .layer:nth-child(2) {
+    top: 20%;
+    left: 60%;
+  }
+  
+  .layer:nth-child(3) {
+    top: 70%;
+    left: 30%;
+  }
+  
+  .layer:nth-child(4) {
+    top: 50%;
+    left: 80%;
+  }
+  
+  .layer:nth-child(5) {
+    top: 10%;
+    left: 40%;
+  }
+  
+  .layer:nth-child(6) {
+    top: 60%;
+    left: 20%;
+  }
+  
+  .layer:nth-child(7) {
+    top: 80%;
+    left: 70%;
+  }
+  
+  .layer:nth-child(8) {
+    top: 40%;
+    left: 90%;
+  }
+  
+  .layer:nth-child(9) {
+    top: 15%;
+    left: 25%;
+  }
+  
+  .layer:nth-child(10) {
+    top: 45%;
+    left: 75%;
+  }
+  
+  .layer:nth-child(11) {
+    top: 90%;
+    left: 50%;
+  }
+  */
+.P-ac img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.P-ac h2{
+    position: relative;
+    font-size: 3vw;
+    color: #fff;
+    font-family: "Gill Sans", serif;
+    text-align: center;
+    margin: auto;
+}
+
+
+.layer {
+    position: absolute;
+    transition: transform 0.3s ease; /* Ajoute une transition au mouvement des images */
+    transition: opacity 0.5s ease;
+  }
+  
+  @keyframes hideImage {
+    to {
+      opacity: 0; /* L'image devient invisible à la fin de l'animation */
+      transform: translateY(-50%) translateX(-50%) scale(0.1); /* L'image est réduite et déplacée */
+    }
+  }
+  
+  .hide {
+    animation: hideImage 0.5s forwards; /* Lancement de l'animation */
+  }
