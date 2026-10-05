@@ -35,3 +35,17 @@ static/           fichiers copiés tels quels (images, logos, CV, favicon)
 ```
 
 Pour modifier un texte : le français est dans `index.html`, l'anglais dans `src/i18n/en.js` (même clé `data-i18n`). Les deux langues sont de vraies pages (`/` et `/en/`), indexables séparément par Google.
+
+## CV
+
+Les CV (FR, EN et versions ATS) sont générés à partir de `cv/data.js` :
+
+```bash
+npm run cv        # écrit les PDF dans static/cv/
+```
+
+- `cv/data.js` : contenu des CV (français et anglais)
+- `cv/render.js` : mise en page (version design 1 page avec photo, version ATS sans image)
+- `cv/build.js` : génération des PDF avec Edge ou Chrome déjà installés sur la machine
+
+Après modification : `npm run cv`, vérifier les PDF, puis commit + `npm run deploy`.

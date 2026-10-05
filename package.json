@@ -9,15 +9,19 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "cv": "node cv/build.js"
   },
   "dependencies": {
     "gsap": "^3.12.5",
     "three": "^0.169.0"
   },
   "devDependencies": {
+    "@fontsource/geist-sans": "^5.3.0",
     "gh-pages": "^6.1.1",
     "node-html-parser": "^9.0.4",
+    "playwright-core": "^1.63.0",
+    "qrcode": "^1.5.4",
     "vite": "^5.4.0"
   }
 }
